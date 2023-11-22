@@ -1,10 +1,7 @@
-import Logo from "./assets/colonF.jpg"
-
 const App = () => {
   return (
     <>
-      <div>Webpack React Starter</div>
-      <img src={Logo} alt="Logo" />
+      <p className="heading-md">Password Generator</p>
     </>
   )
 }

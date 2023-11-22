@@ -1,3 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=JetBrains+Mono:wght@700&family=Outfit:wght@300;500&family=Poppins:wght@500;700&family=Roboto:wght@400;700&display=swap");
+
+/* Root */
+:root {
+  /* colors */
+  --clr-background-dark: #24232c;
+  --clr-background-darker: #18171f;
+  --clr-grey: #817d92;
+  --clr-white: #e6e5ea;
+  --clr-green: #a4ffaf;
+  --clr-red: #f64a4a;
+  --clr-orange: #fb7c58;
+  --clr-yellow: #f8cd65;
+
+  /* spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.25rem;
+  --spacing-lg: 2rem;
+
+  /* Fonts */
+  --fs-sm: 1.125rem;
+  --fs-md: 1.5rem;
+  --fs-lg: 2rem;
+}
+
 /* Resets */
 *,
 *::before,
@@ -53,4 +79,29 @@ a {
 
 img {
   max-width: 100%;
+}
+
+/* General */
+body {
+  font-family: "JetBrains Mono", monospace;
+  background-color: var(--clr-background-darker);
+  color: var(--clr-white);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Utilities */
+.heading-lg {
+  font-size: var(--fs-lg);
+}
+
+.heading-md {
+  font-size: var(--fs-md);
+}
+
+.body-text {
+  font-size: var(--fs-sm);
 }
